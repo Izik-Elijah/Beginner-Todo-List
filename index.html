@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner Todo list demo</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <h1>My Todo List</h1>
+
+
+<div class="todo-div-grid">
+<input type="text" placeholder="Add Todo Details" class="js-input name-input" onkeydown="enterKey(event);" required>
+
+<input type="date" class="js-input-date date-input " onkeydown="enterKey(event);" required>
+<button onclick="
+addTodoElement()
+
+
+" class="add-button">Add</button>
+
+</div>
+
+<div class="js-div todo-grid"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
